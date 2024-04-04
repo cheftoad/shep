@@ -1,7 +1,6 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif;
 }
 
 .container {
@@ -16,14 +15,16 @@ body {
   vertical-align: top; /* Add this line to align images at the top */
 }
 
-.title {
+.ca {
   position: absolute;
-  top: 15px;
+  bottom: 50px;
   left: 50%; /* Center the container horizontally */
   transform: translateX(-50%); /* Adjust to center the container */
   display: flex;
   flex-direction: row;
   align-items: center;
+  font-family: "Comic Sans MS", cursive;
+  font-size: 48px; /* Font size 24 pixels */
 }
 
 .buttons-container {
@@ -96,5 +97,17 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
+  }
+
+  .ca {
+    position: absolute;
+    bottom: 25px;
+    left: 50%; /* Center the container horizontally */
+    transform: translateX(-50%); /* Adjust to center the container */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: "Comic Sans MS", cursive;
+    font-size: 24px; /* Font size 24 pixels */
   }
 }
